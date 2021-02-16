@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(191, 225, 255);
+}
+#calc{
+    height:325px;
+    width:200px;
+    background:rgb(73, 68, 68);
+    margin:auto;
+    border-radius:20px;
+}
+
+#valor{
+    width:190px;
+    height:30px;
+    margin-top:30px;
+    background:#ccc;
+    border-radius:10px;
+    color:rgb(10,10,10);
+    text-align:right;
+    margin-bottom:20px;
+
+}   
+
+button{
+    
+    background:rgb(17, 17, 17);
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    margin:3px 2px;
+    color:rgb(255, 249, 249);
+  
+ 
+} 
+
+
+div button:hover{
+    color: black;
+    background:white;
+  
+}
+
+button#c{    
+    width:80px;
+}
+
+button.top{
+    width:45px;
+}
+
+button.z{
+    width:90px;
+   
+}
+
+button.m{
+  height: 80px;
+  float:right;
+  margin-top: -40px;
+  margin-right: 10px;
+
+
+}
+div.div{
+   
+    background:rgb(19, 8, 170);
+    width: 200px;
+    height:90px;
+    border-radius: 10px;
+    margin:10px auto;
+    
+
+
+} 
+.div button{
+    background:rgb(17, 17, 17);
+    width:59px;
+    height:20px;
+    text-align:center;
+    border-radius:10px;
+    margin: 3px 2px;
+    color:rgb(255, 249, 249);
+    justify-content:center;
+    font-size:10px
+    
+}
+@media (max-width: 900px){
+    div.div{
+        background:blue;
+    }
+    div.div button{
+        align-items:center;
+        justify-content:center;
+    }
+
+}
+@media(max-height:420px){
+    div.div button{
+        width:50px;
+        font-size: 7px;
+        margin:3px;
+    
+
+    }
+    
+}

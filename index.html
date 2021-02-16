@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+                                                                                                                                                                                                                                                                                                                                                                                                                                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="calc">
+        <input type="text"  id="valor" placeholder="0">
+       
+            
+            
+            <button id="c" onclick="acao('acao', id)">C</button>
+            <button id='/' class='top' onclick="acao('acao', id)">/</button>
+            <button id="*" class='top' onclick="acao('acao', id)">x</button>
+            
+        
+                 
+        
+            
+            <button id="7" onclick="acao('number',id)">7</button>
+            <button id="8" onclick="acao('number',id)">8</button>
+            <button id="9" onclick="acao('number', id)">9</button>
+            <button id="-" onclick="acao('acao', id)">-</button>
+        
+  
+        
+            
+            <button id="4" onclick="acao('number',id)">4</button>
+            <button id="5" onclick="acao('number',id)">5</button>
+            <button id="6" onclick="acao('number',id)">6</button>
+            <button id="+"onclick="acao('acao', id)">+</button>
+        
+   
+        
+            
+            <button id="1" onclick="acao('number',id)"> 1</button>
+            <button id="2" onclick="acao('number',id)">2</button>
+            <button id="3" onclick="acao('number',id)">3</button>
+            
+        
+  
+        
+            
+            <button id="0" class='z' onclick="acao('number',id)">0</button>
+            <button id="."  onclick="acao('acao',id)">.</button>
+            <button id="=" class="m" onclick="acao('acao', id)">=</button>
+        
+      
+      
+
+    </div>
+
+        <div class="div" >
+            <button id="red" onclick="cor(id)" >vermelho</button>
+            <button id="gray" onclick="cor(id)" >cinza</button>
+            <button id="blue" onclick="cor(id)" >azul</button>
+            <button id="black" onclick="cor(id)" >preto</button>
+            <button id="pink" onclick="cor(id)" >rosa</button>
+            <button id="green" onclick="cor(id)" >verde</button>
+            <button id="yellow" onclick="cor(id)" >amarelo</button>
+            <button id="brown" onclick="cor(id)" >marrom</button>
+            <button id="white" onclick="cor(id)" >branco</button>
+            
+        </div>
+    
+</body>
+</html>
