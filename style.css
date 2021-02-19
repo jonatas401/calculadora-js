@@ -52,9 +52,14 @@ button.z{
     width:90px;
    
 }
+button.f{
+    float:right;
+    margin-top:-40px;
+    margin-right: 10px;
+}
 
 button.m{
-  height: 80px;
+  height: 40px;
   float:right;
   margin-top: -40px;
   margin-right: 10px;
